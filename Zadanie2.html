@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Задание 2</title>
+</head>
+<body>
+<form action="Z2.php" method="POST">
+	<p><input type="text" name="a">A<br></p>
+	<p><input type="text" name="b">B<br></p>
+	<p><input type="text" name="c">C<br></p>
+</form>
+</body>
+</html>
+<?php
+$x=0
+$a=$_POST['a'];
+$b=$_POST['b'];
+$c=$_POST['c'];
+$x=(-$b+(sqrt((($b)^2-4($a)($c))))))/2;
+echo $x,"<br>";
+$x=(-$b-(sqrt((($b)^2-4($a)($c))))))/2;
+echo $x,"<br>";
+?>
